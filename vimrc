@@ -39,11 +39,18 @@ set history=700
 set undolevels=700
 
 
-" Real programmers don't use TABs but spaces
+" Use spaces instead of tabs
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set shiftround
 set expandtab
 
+" Smart way to move between windows
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+
 set title
+set mouse=a
